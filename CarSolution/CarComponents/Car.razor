@@ -1,0 +1,23 @@
+﻿@inject AppData AppData
+
+<h3>Car</h3>
+
+<div class="row">
+    <div class="col">
+        <span>Color: @AppData.MainCar.Color</span>
+    </div>
+    <div class="col">
+        <span>@AppData.MainCar.Owner</span>
+    </div>
+</div>
+
+@code {
+
+    protected override void OnInitialized()
+    {
+        AppData.MainCar.Color = "Blue";
+        AppData.MainCar.Owner = "Alice";
+        AppData.MainCar.Seats.Add(new Seat() { Color = "White" });
+        base.OnInitialized();
+    }
+}

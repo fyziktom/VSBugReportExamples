@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32408.312
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLib", "CarLib\CarLib.csproj", "{81959AF3-118E-4407-B9F7-3682F516F991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarComponents", "CarComponents\CarComponents.csproj", "{46607E22-0627-4E1D-BC2A-86ACF5899C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp", "CarApp\CarApp.csproj", "{00B7DDC1-470E-4E85-9094-580EECC838E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81959AF3-118E-4407-B9F7-3682F516F991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81959AF3-118E-4407-B9F7-3682F516F991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81959AF3-118E-4407-B9F7-3682F516F991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81959AF3-118E-4407-B9F7-3682F516F991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46607E22-0627-4E1D-BC2A-86ACF5899C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46607E22-0627-4E1D-BC2A-86ACF5899C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46607E22-0627-4E1D-BC2A-86ACF5899C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46607E22-0627-4E1D-BC2A-86ACF5899C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B7DDC1-470E-4E85-9094-580EECC838E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B7DDC1-470E-4E85-9094-580EECC838E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B7DDC1-470E-4E85-9094-580EECC838E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B7DDC1-470E-4E85-9094-580EECC838E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C898AAD-2AC8-4CAD-996A-11F093FB12E0}
+	EndGlobalSection
+EndGlobal
